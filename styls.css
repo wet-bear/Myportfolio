@@ -1,0 +1,133 @@
+/* CSS for my website  */
+
+.navbar{
+    background-color: white;
+    padding-top: 20px;
+}
+
+/* Logo  */
+.logo{
+    max-height: 40px;
+    min-height: 30px;
+    width: 250px;
+}
+.logo:hover{
+    background-color: rgb(245, 137, 13);
+}
+
+
+/* CSS underline and animation */
+.navbar-light .navbar-nav .tab-text {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  padding:10px 20px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline-block;
+}
+.navbar-light .navbar-nav .tab-text:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:rgb(245, 137, 13);
+    text-decoration: underline;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width:0;
+}
+.navbar-light .navbar-nav .tab-text:hover:after{
+    width: 100%;
+    left: 0%;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+.social-media,
+.fix-one{
+    text-align: center;
+    
+}
+.fix-one{
+    background-image: url(Images/icons8-walter-white-48.png);
+}
+.first-img{
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 150%;
+    padding-top: 0%;
+    border-color: rgb(167, 235, 135);
+    border-top-width: thick;
+}
+.first-img:hover{
+    background-color: rgb(16, 255, 16);
+    cursor:pointer;
+    transition: 0.1s;
+}
+
+.intro{
+    margin-top: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: orange;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.btn{
+    margin-top: 0%;
+}
+.btn:hover{
+    background-color: rgb(42, 197, 21);
+}
+.btn-dark{
+    background-color: blueviolet;
+    border-radius: 10%;
+    border-color: blueviolet;
+}
+.social-media{
+    padding-top: 2%;
+}
+.instagram:hover{
+    background-color: rgb(241, 88, 139);
+    transition: 0.8s;
+    border-radius: 80%;
+}
+.facebook:hover{
+    background-color: steelblue;
+    border-radius: 80%;
+    transition: 0.8s;
+}
+.git-hub:hover{
+    background-color: rgb(15, 15, 15);
+    transition: 0.8s;
+    border-radius: 80%;
+}
+.footer{
+    text-align: center;
+}
+
+/* about- css */
+
+.fix-two{
+    background-color: deepskyblue;
+}
+
+h1{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    background-color: greenyellow;
+}
